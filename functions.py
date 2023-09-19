@@ -32,7 +32,7 @@ def convert_morse_code_to_text(code):
     
     # generate list of morse code characters
     codes = code.split(' ')
-    print(codes)
+    # print(codes)
     
     for morse_code in codes:
         try:
