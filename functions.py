@@ -36,7 +36,7 @@ def convert_morse_code_to_text(code):
     
     for morse_code in codes:
         try:
-            text += ''
+            text += morse_code_to_text_dict[morse_code]
         except KeyError:
             text += '#'
             
