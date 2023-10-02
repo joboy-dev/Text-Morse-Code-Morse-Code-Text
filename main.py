@@ -13,6 +13,8 @@ while True:
             
             # Function to convert text into morse code
             convert_text_to_morse_code(text)
+            
+            quit = input('Press Enter to exit')
             break
         elif choice == 2:
             print(morse_code_to_text_ascii)
@@ -21,6 +23,8 @@ while True:
             
             # Function to convert morse code to text
             convert_morse_code_to_text(code)
+            
+            quit = input('Press Enter to exit')
             break
         else:
             print('This is not a valid option. Try again')
